@@ -1,0 +1,15 @@
+body {
+  font-family: Helvetica;
+  color: #fff;
+  background-color: #214c4b;
+}
+
+a {
+  text-decoration: none;
+  color: #ffdd00;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffdd00;
+}
