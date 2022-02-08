@@ -1,15 +1,15 @@
 body {
   font-family: Helvetica;
   color: #fff;
-  background-color: #214c4b;
+  background-color: #4c2121;
 }
 
 a {
   text-decoration: none;
-  color: #ffdd00;
+  color: #ff7373;
 }
 
 a:visited {
   text-decoration: none;
-  color: #ffdd00;
+  color: #ff7373;
 }
