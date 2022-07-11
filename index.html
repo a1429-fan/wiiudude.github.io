@@ -20,16 +20,37 @@
 	</style>
 	</head>
 	<body>
-  <div class="window glass" style="max-width: 320px">
+  <div class="window glass" style="max-width: 450px;margin: 170px 486px 0;">
     <div class="title-bar">
-      <div class="title-bar-text">Welcome!</div>
-      <div class="title-bar-controls">
-        <button aria-label="Minimize"></button>
-        <button aria-label="Close"></button>
-      </div>
+    <div class="title-bar-text">bruhdude's Website</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
     </div>
-    <div class="window-body">
-      <p>Welcome to my site. It is currently a work in progress.</p>
-    </div>
+  </div>
+  <div class="window-body">
+    <menu role="tablist">
+      <button role="tab" aria-controls="aboutme" aria-selected="true">About me</button>
+      <button role="tab" aria-controls="stuff">Stuff I made</button>
+	     <button role="tab" aria-controls="contact">Contact me</button>
+      <button role="tab" aria-controls="credits">Credits</button>
+    </menu>
+    <article role="tabpanel" id="aboutme">
+      <p>Hi! I'm bruhdude. A PHP developer and meh artist who makes crappy stuff.<br>I am also a developer for sites like bruhclone, Noted, and others.</p>
+    </article>
+
+    <article role="tabpanel" hidden id="stuff">
+	    <p>These things include <a href="https://noted.rebooted.link/">Noted (developer and artist)</a>, <a href="https://bruhclone.rebooted.link/">bruhclone (Main developer)</a>, <a href="https://rebooted.link/">Authentikitty (main developer)</a>, and many, MANY others.</p>
+    </article>
+
+    <article role="tabpanel" hidden id="contact">
+      <p>
+        If you wanna contact me through Discord, you can do so <a href="https://discordapp.com/users/500125782287319050">here</a>.<br>You can also find me on a few clones. I'm not telling which, though.
+      </p>
+    </article>
+    <section class="field-row" style="justify-content: flex-end">
+      <button>Useless button</button>
+    </section>
   </div>
 </body></html>
