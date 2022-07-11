@@ -30,25 +30,28 @@
     </div>
   </div>
   <div class="window-body">
-    <menu role="tablist">
-      <button role="tab" aria-controls="aboutme" aria-selected="true">About me</button>
-      <button role="tab" aria-controls="stuff">Stuff I made</button>
-	     <button role="tab" aria-controls="contact">Contact me</button>
-      <button role="tab" aria-controls="credits">Credits</button>
-    </menu>
-    <article role="tabpanel" id="aboutme">
-      <p>Hi! I'm bruhdude. A PHP developer and meh artist who makes crappy stuff.<br>I am also a developer for sites like bruhclone, Noted, and others.</p>
-    </article>
-
-    <article role="tabpanel" hidden id="stuff">
-	    <p>These things include <a href="https://noted.rebooted.link/">Noted (developer and artist)</a>, <a href="https://bruhclone.rebooted.link/">bruhclone (Main developer)</a>, <a href="https://rebooted.link/">Authentikitty (main developer)</a>, and many, MANY others.</p>
-    </article>
-
-    <article role="tabpanel" hidden id="contact">
-      <p>
+	  <section class="tabs">
+  <menu role="tablist" aria-label="Tabs Template">
+    <button role="tab" aria-controls="aboutme" aria-selected="true">About me</button>
+    <button role="tab" aria-controls="stuff">Stuff I made</button>
+    <button role="tab" aria-controls="contact">Contact me</button>
+    <button role="tab" aria-controls="credits">Credit</button>
+  </menu>
+  <article role="tabpanel" id="aboutme">
+	  <p>Hi! I'm bruhdude. A PHP developer and meh artist who makes crappy stuff.<br>I am also a developer for sites like bruhclone, Noted, and others.</p>
+		  </article>
+  <article role="tabpanel" id="stuff" hidden>
+	  <p>These things include <a href="https://noted.rebooted.link/">Noted (developer and artist)</a>, <a href="https://bruhclone.rebooted.link/">bruhclone (Main developer)</a>, <a href="https://rebooted.link/">Authentikitty (main developer)</a>, and many, MANY others.</p>
+		  </article>
+  <article role="tabpanel" id="contact" hidden>
+	  <p>
         If you wanna contact me through Discord, you can do so <a href="https://discordapp.com/users/500125782287319050">here</a>.<br>You can also find me on a few clones. I'm not telling which, though.
       </p>
-    </article>
+		  </article>
+  <article role="tabpanel" id="credits" hidden>
+	  <p>https://khang-nd.github.io/7.css</p>
+		  </article>
+</section>
     <section class="field-row" style="justify-content: flex-end">
       <button>Useless button</button>
     </section>
